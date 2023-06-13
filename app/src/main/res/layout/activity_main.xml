@@ -5,20 +5,26 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/main"
+    android:background="@drawable/register"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/user_details"
-        android:layout_width="wrap_content"
+        android:layout_width="323dp"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="15dp"
         android:text="Hello World!"
-        />
+        android:textAlignment="center"
+        android:textColor="#252010"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
     <Button
-        android:text="@string/logout"
         android:id="@+id/logout"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="@string/logout" />
 
 </LinearLayout>

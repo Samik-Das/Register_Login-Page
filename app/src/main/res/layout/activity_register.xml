@@ -13,31 +13,38 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register"
         android:layout_marginBottom="20dp"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:gravity="center" />
+        android:gravity="center"
+        android:text="Register"
+        android:textColor="#171515"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
+
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/email"
-            android:hint="@string/email"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:textColor="#171616"
+            android:textColorHint="#0C0C0C" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
+
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password"
-            android:hint="password"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:textColor="#171616"
+            android:textColorHint="#0B0A0A" />
 
     </com.google.android.material.textfield.TextInputLayout>
     <ProgressBar
@@ -48,18 +55,26 @@
 
     <Button
         android:id="@+id/btn_register"
-        android:text="Register"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColorHighlight="#BE20DA"
+        android:textColorLink="#CA31E4"
+        app:rippleColor="#C710E6"
+        app:strokeColor="#CC2BE8" />
 
     <TextView
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:gravity="center"
-        android:layout_marginTop="20dp"
         android:id="@+id/loginNow"
-        android:text="@string/click_to_login"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/click_to_login"
+        android:textColor="#0B0A0A"
+        android:textColorHint="#0E0E0E"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
 
 </LinearLayout>

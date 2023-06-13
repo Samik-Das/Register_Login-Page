@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             finish();
         }
         else {
-            textView.setText(user.getEmail());
+            textView.setText("Your Email id : " + user.getEmail());
         }
 
         button.setOnClickListener(new View.OnClickListener() {
